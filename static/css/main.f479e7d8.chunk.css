@@ -1,0 +1,246 @@
+.sidebar-item {
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.docWrapper {
+    margin-bottom: 40px !important;
+    display: flow-root;
+}
+.important {
+    display: inline-block;
+    background: #FDEAEB;
+    padding: 24px;
+    border-radius: 12px;
+}
+.links {
+    margin: 24px 0px 24px 0px !important;
+    font-size: 14px !important;
+}
+.links a {
+    display: block;
+    color: #1E856F;
+
+}
+.links a:hover {
+    color: #000000;
+}
+.Note {
+    display: block;
+    font-size: 14px !important;
+    line-height: 21px;
+}
+
+.toTop {
+    
+    display: inline-grid;
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+.toTop a {
+    border: 2px solid #ccc;
+    padding: 16px;
+    border-radius: 100%;
+    color: #999;
+    height: 24px;
+    width: 24px;
+    font-weight: 600;
+}
+
+.toTop a:hover {
+   
+    border: 2px solid  #1E856F;
+    color:  #1E856F;
+}
+
+.Colors {
+    width: 33%;
+    padding: 16px 0px 16px 0px;
+    border-radius: 10px;
+    margin-bottom: 4px !important;
+    position: relative;
+    float: left;
+}
+.ColorsWrapper {
+    display: inline-block;
+    margin-bottom: 16px !important;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
+}
+
+.Colors p {
+    font-size: 14px;
+    color: #000;
+    margin:0;
+}
+.ColorsWrapper h4 {
+    display: block;
+    padding-bottom: 8px;
+}
+.Colors::before {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: block;
+    content: "";
+    float: left;
+    border-radius: 100%;
+    margin-right: 16px;
+    margin-bottom: 30px;
+}
+.PrimaryStandard::before {
+    background: #1d1d1b;
+   
+}
+.SecondaryStandard::before {
+    background: #666;
+   
+}
+.TertiaryStandard::before {
+    background: #999;
+   
+}
+.DisableStandard::before {
+    background: #CCC;
+   
+}
+.QuaternaryStandard::before {
+    background: #f2f2f2;
+    
+}
+.QuaternaryStandard p, .QuinaryStandart p, .DisableStandard p {
+    color: #000 !important;
+} 
+.QuinaryStandart::before {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 100px;
+   
+}
+
+
+.PrimaryMain::before {
+    background: #00A88E;
+}
+.SecondaryMain::before {
+    background: #23D1AE;
+    margin-bottom: 100px;
+}
+.TertiaryMain::before {
+    background: #006D5C;
+   
+}
+
+
+.PrimaryAlert::before {
+    background: #ED2939;
+}
+.SecondaryAlert::before {
+    background: #FF4455;
+}
+.TertiaryAlert::before {
+    background: #DA1F2E;
+}
+
+
+.PrimaryAttention::before {
+    background: #FFAA00;
+}
+.SecondaryAttention::before {
+    background: #FFBE26;
+}
+.TertiaryAttention::before {
+    background: #E9980A;
+}
+
+
+.PrimaryAuxiliary::before {
+    background: #27B7FF;
+}
+.SecondaryAuxiliary::before {
+    background: #0996DC;
+}
+.TertiaryAuxiliary::before {
+    background: #146790;
+}
+
+
+.Banners {
+    display: inline-block;
+    padding: 15px;
+    width: 17%;
+  
+}
+.Banners p {
+    color:#fff;
+    margin: 0;
+    font-weight: 500;
+}
+.BannersPallete p {
+    color:#000;
+}
+.BannerDangerAccent {
+    background: #F15461;
+}
+.BannerPluginsAccent {
+    background: #A191FF;
+}
+.BannerInfoAccent {
+    background: #0BA5F2;
+}
+.BannerTechAccent {
+    background: #2BBE9E;
+}
+.BannerWarningAccent {
+    background: #FFB31A;
+}
+
+.BannerDanger {
+    background: #FDEAEB;
+}
+.BannerPlugins {
+    background: #F3F1FF;
+}
+.BannerInfo {
+    background: #E0F4FE;
+}
+.BannerTech {
+    background: #E3F9F4;
+}
+.BannerWarning {
+    background: #FFF7E5;
+}
+
+
+.shadow {
+    float: left;
+    margin-right: 16px !important;
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px;
+    font-weight: 800;
+}
+.shadow span {
+  opacity:0.4;
+}
+
+.shadow20 {
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 16%);
+}
+.shadow40 {
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 16%);
+}
+.shadow60 {
+    box-shadow: 0px 8px 24px rgb(0 0 0 / 16%);
+}
+.shadow80 {
+    box-shadow: 0px 12px 32px rgb(0 0 0 / 16%);
+}
+.shadow100 {
+    box-shadow: 0px 16px 48px rgb(0 0 0 / 16%);
+}
+
+/*# sourceMappingURL=main.f479e7d8.chunk.css.map*/
